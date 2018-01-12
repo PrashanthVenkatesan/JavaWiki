@@ -33,6 +33,12 @@ public class SimpleDoubleSummaryStatistics {
 		stats4.accept(15.0);
 		stats4.accept(20.0);
 		printStats(stats4);
+		
+		/*stats1.andThen(new DoubleConsumer() {
+			@Override
+			public void accept(double value) {
+			}
+		});*/
 
 	}
 

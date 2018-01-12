@@ -1,0 +1,24 @@
+Java NIO: Channels and Buffers
+Reads data from channel and put it to a buffer & Writes data from buffer to channel
+Java NIO: Non-blocking IO
+Channel reading and Channel writing is non blocking. you can do other work
+Java NIO: Selectors
+A single thread can monitor multiple channels for data
+
+
+Channel, Buffer and Selector forms the core of the API
+
+Available Channels
+FileChannel
+DatagramChannel
+SocketChannel
+ServerSocketChannel
+
+Available Buffers
+ByteBuffer
+CharBuffer
+DoubleBuffer
+FloatBuffer
+IntBuffer
+LongBuffer
+ShortBuffer
